@@ -1,4 +1,0 @@
-update
-log in form is complete create a set of users in the back end so study nodejs mongodb make sure naka live serve din para madali mag code
-
-if may prob gumamit ng codepen.com ata not sure about the webname just try and figureout nalang
