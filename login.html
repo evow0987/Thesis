@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
+<form id="loginForm">
   <div class="login-box">
     <div class="login-header">
         <header>Login</header>
     </div>
     <div class="input-box">
-        <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+        <input type="text" class="input-field" placeholder="Username" autocomplete="off" required>
     </div>
     <div class="input-box">
         <input type="password" class="input-field" placeholder="Password" autocomplete="off" required>
@@ -21,15 +23,21 @@
             <input type="checkbox" id="check">
             <label for="check">Remember me</label>
         </section>
-        <section>
-            <a href="#">Forgot password</a>
-        </section>
+        <div class= "role-box">
+            <label for="role">Select Role:</label>
+            <select id="role" required>
+                <option value="admin">Admin</option>
+                <option value="employee">Employee</option>
+                <option value="reseller">Reseller</option>
+            </select>
+        </div>
     </div>
     <div class="input-submit">
         <button class="submit-btn" id="submit"></button>
         <label for="submit">Sign In</label>
-        <a href="rslr.html">Sign In</a>
     </div>
 </div>
+</form>
+<script src="js/login.js"></script>
 </body>
 </html>
